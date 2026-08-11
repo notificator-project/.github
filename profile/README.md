@@ -79,7 +79,7 @@ More compatible firmware targets can be added without forcing different devices 
 
 ## Community
 
-Notificator was first introduced publicly at WordCamp Athens 2025. Since then, tens of early-access devices have reached testers across multiple countries.
+Notificator was first introduced publicly at [WordCamp Athens 2025](https://athens.wordcamp.org/2025/). Since then, tens of early-access devices have reached testers across multiple countries.
 
 Feedback from early-access participants, the Greek WordPress community, WordPress contributors, makers, and open-source users continues to shape the project. Thank you to everyone who has tested a device, reported a problem, suggested an improvement, or helped someone else get started.
 
