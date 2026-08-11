@@ -5,7 +5,7 @@
 <h1 align="center">Notificator Project</h1>
 
 <p align="center">
-  Turn meaningful WordPress events into alerts you can act on.
+  Turn meaningful events into alerts you can act on.
 </p>
 
 <p align="center">
@@ -15,27 +15,28 @@
   <a href="https://notificator-project.com/support/">Support</a>
 </p>
 
-Notificator is a free and open-source notification ecosystem for WordPress, mobile apps, and compatible physical devices.
+Notificator is a free and open-source notification ecosystem for WordPress, Strapi, mobile apps, and compatible physical devices.
 
-Discover useful WordPress events, create focused notification rules, and choose where each alert belongs: inside the WordPress dashboard, on your phone, by optional email, or on an MQTT-connected device.
+Discover useful WordPress events or define Strapi content rules, then choose where each alert belongs: in a local activity view, on your phone, by optional email, or on an MQTT-connected device.
 
 ## One event, several useful destinations
 
 ```text
-WordPress event
+WordPress or Strapi event
       ↓
 Notificator notification rule
       ↓
-Dashboard · Mobile push · Optional email · MQTT device
+Local activity · Mobile push · Optional email · MQTT device
 ```
 
-Dashboard alerts work locally in WordPress without an account or API key. Remote delivery is optional and can connect the mobile app, email alerts, and user-owned MQTT infrastructure.
+WordPress dashboard alerts and the Strapi activity log work locally without an account or API key. Remote delivery is optional and can connect the mobile app, email alerts, and user-owned MQTT infrastructure.
 
 ## Projects
 
 | Project | What it provides |
 | --- | --- |
 | [WordPress Plugin](https://github.com/notificator-project/WordPress-Plugin) | Event discovery, ready-made templates, notification rules, dashboard alerts, mobile delivery, MQTT, activity history, and portable configuration exports. |
+| [Strapi Extension](https://github.com/notificator-project/Strapi-Extension) | Content lifecycle rules, local Strapi activity, signed remote delivery, mobile alerts, email, and user-owned MQTT without repeated lifecycle code. |
 | [Mobile App](https://github.com/notificator-project/mobile-app) | Accounts, API keys, mobile alerts, optional email preferences, device management, MQTT connection testing, and model-aware firmware controls. |
 | [IoT Firmware](https://github.com/notificator-project/IoT-Firmware) | Open-source ESP32 firmware, browser installation, signed OTA updates, and independent release channels for supported hardware. |
 | [Documentation](https://github.com/notificator-project/Docs) | Setup guides for the plugin, app, HiveMQ, Notificator Base, Notificator Touch, firmware installation, and integrations. |
@@ -68,7 +69,7 @@ More compatible firmware targets can be added without forcing different devices 
 
 ## Built for choice and privacy
 
-- Use dashboard alerts without creating a Notificator account.
+- Use WordPress dashboard alerts or Strapi activity without creating a Notificator account.
 - Enable remote delivery only for notifications that need it.
 - Connect compatible devices through your own HiveMQ Cloud cluster.
 - Keep MQTT credentials out of the Notificator account database.
