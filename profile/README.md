@@ -33,14 +33,16 @@ WordPress dashboard alerts and the Strapi activity log work locally without an a
 
 ## Projects
 
-| Project | What it provides |
-| --- | --- |
-| [WordPress Plugin](https://github.com/notificator-project/WordPress-Plugin) | Event discovery, ready-made templates, notification rules, dashboard alerts, mobile delivery, MQTT, activity history, and portable configuration exports. |
-| [Strapi Extension](https://github.com/notificator-project/Strapi-Extension) | Content lifecycle rules, local Strapi activity, signed remote delivery, mobile alerts, email, and user-owned MQTT without repeated lifecycle code. |
-| [Mobile App](https://github.com/notificator-project/mobile-app) | Accounts, API keys, mobile alerts, optional email preferences, device management, MQTT connection testing, and model-aware firmware controls. |
-| [IoT Firmware](https://github.com/notificator-project/IoT-Firmware) | Open-source ESP32 firmware, browser installation, signed OTA updates, and independent release channels for supported hardware. |
-| [Documentation](https://github.com/notificator-project/Docs) | Setup guides for the plugin, app, HiveMQ, Notificator Base, Notificator Touch, firmware installation, and integrations. |
-| [Website](https://github.com/notificator-project/Website) | The public project website, Journal, support and privacy pages, changelog, and browser-based firmware installer. |
+| Project                                                                     | What it provides                                                                                                                                                             |
+| --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [WordPress Plugin](https://github.com/notificator-project/WordPress-Plugin) | Event discovery, ready-made templates, notification rules, dashboard alerts, mobile delivery, MQTT, activity history, and portable configuration exports.                    |
+| [Strapi Extension](https://github.com/notificator-project/Strapi-Extension) | The `0.1.1` Strapi 5 preview for content lifecycle rules, local activity, signed remote delivery, mobile alerts, email, and user-owned MQTT without repeated lifecycle code. |
+| [Mobile App](https://github.com/notificator-project/mobile-app)             | Accounts, API keys, mobile alerts, optional email preferences, device management, MQTT connection testing, and model-aware firmware controls.                                |
+| [IoT Firmware](https://github.com/notificator-project/IoT-Firmware)         | Open-source ESP32 firmware, browser installation, signed OTA updates, and independent release channels for supported hardware.                                               |
+| [Hosted API](https://github.com/notificator-project/public-api)             | The server-side notification ingestion and delivery service operated at `api.notificator-project.com`.                                                                       |
+| [Node.js SDK](https://github.com/notificator-project/Node-SDK)              | The `@notificator-project/api` server client for sending typed alerts through the hosted API.                                                                                |
+| [Documentation](https://github.com/notificator-project/Docs)                | Setup guides for the plugin, app, HiveMQ, Notificator Base, Notificator Touch, firmware installation, and integrations.                                                      |
+| [Website](https://github.com/notificator-project/Website)                   | The public project website, Journal, support and privacy pages, changelog, and browser-based firmware installer.                                                             |
 
 ## Physical devices
 
@@ -94,8 +96,8 @@ Feedback from early-access participants, the Greek WordPress community, WordPres
 
 ## Independent and open source
 
-Notificator is an independent open-source project. It is not affiliated with, endorsed by, or sponsored by WordPress.org, the WordPress Foundation, Automattic, Waveshare, or HiveMQ.
+Notificator is an independent open-source project. It is not affiliated with, endorsed by, or sponsored by WordPress.org, the WordPress Foundation, Automattic, Strapi Solutions SAS, Waveshare, or HiveMQ.
 
-References to WordPress describe compatibility and participation in the open-source community. References to Waveshare identify compatible hardware, while references to HiveMQ identify the currently supported user-owned MQTT service. Product names, trademarks, services, and terms remain the property of their respective owners.
+References to WordPress and Strapi describe compatibility and participation in their open-source communities. References to Waveshare identify compatible hardware, while references to HiveMQ identify the currently supported user-owned MQTT service. Product names, trademarks, services, and terms remain the property of their respective owners.
 
 Repository-specific licenses and third-party notices are documented in each project.
