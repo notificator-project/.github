@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">
+  <a href="https://notificator-project.com/get-started/"><strong>Get started</strong></a> ·
   <a href="https://notificator-project.com/">Website</a> ·
   <a href="https://docs.notificator-project.com/">Documentation</a> ·
   <a href="https://notificator-project.com/changelog/">Changelog</a> ·
@@ -55,6 +56,10 @@ A compact maker-friendly reference device built around an ESP32-C3 SuperMini, SS
 
 A touchscreen firmware preview for the Waveshare ESP32-S3 Touch LCD 3.49, with alert history, clock and weather views, audio, on-device Wi-Fi setup, orientation support, and dedicated settings.
 
+### Notificator Matter
+
+An upcoming device path intended to let selected Notificator alerts trigger compatible smart-home and office devices. It remains under development and is not yet available as a firmware release.
+
 <table>
   <tr>
     <td width="50%">
@@ -86,6 +91,7 @@ Feedback from early-access participants, the Greek WordPress community, WordPres
 
 ## Get involved
 
+- Choose your path on the [Get Started page](https://notificator-project.com/get-started/).
 - Read the [documentation](https://docs.notificator-project.com/).
 - Follow meaningful releases in the [project changelog](https://notificator-project.com/changelog/).
 - Open a focused issue in the repository that owns the affected component.
