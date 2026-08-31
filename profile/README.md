@@ -16,14 +16,14 @@
   <a href="https://notificator-project.com/support/">Support</a>
 </p>
 
-Notificator is a free and open-source notification ecosystem for WordPress, Strapi, mobile apps, and compatible physical devices.
+Notificator is a free and open-source notification ecosystem for WordPress, Strapi, Astro, Node.js backends, mobile apps, and compatible physical devices.
 
-Discover useful WordPress events or define Strapi content rules, then choose where each alert belongs: in a local activity view, on your phone, by optional email, or on an MQTT-connected device.
+Discover useful WordPress events, define Strapi content rules, or send trusted server events from Astro and Node.js, then choose where each alert belongs: in a local activity view, on your phone, by optional email, or on an MQTT-connected device.
 
 ## One event, several useful destinations
 
 ```text
-WordPress or Strapi event
+WordPress · Strapi · Astro · Node.js event
       ↓
 Notificator notification rule
       ↓
@@ -38,10 +38,11 @@ WordPress dashboard alerts and the Strapi activity log work locally without an a
 | --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [WordPress Plugin](https://github.com/notificator-project/WordPress-Plugin) | Event discovery, ready-made templates, notification rules, dashboard alerts, mobile delivery, MQTT, activity history, and portable configuration exports.                    |
 | [Strapi Extension](https://github.com/notificator-project/Strapi-Extension) | The `0.1.1` Strapi 5 preview for content lifecycle rules, local activity, signed remote delivery, mobile alerts, email, and user-owned MQTT without repeated lifecycle code. |
+| [Astro Integration](https://github.com/notificator-project/astro)          | The `@notificator-project/astro` server integration for Actions, API routes, webhooks, server-rendered workflows, and optional successful-build alerts.                          |
 | [IoT Firmware](https://github.com/notificator-project/IoT-Firmware)         | Open-source ESP32 firmware, browser installation, signed OTA updates, and independent release channels for supported hardware.                                               |
 | [Hosted API](https://github.com/notificator-project/public-api)             | The server-side notification ingestion and delivery service operated at `api.notificator-project.com`.                                                                       |
 | [Node.js SDK](https://github.com/notificator-project/Node-SDK)              | The `@notificator-project/api` server client for sending typed alerts through the hosted API.                                                                                |
-| [Documentation](https://github.com/notificator-project/Docs)                | Setup guides for the plugin, app, HiveMQ, Notificator Base, Notificator Touch, firmware installation, and integrations.                                                      |
+| [Documentation](https://github.com/notificator-project/Docs)                | Setup guides for WordPress, Strapi, Astro, the Node.js SDK, app, HiveMQ, Notificator devices, firmware installation, and public APIs.                                         |
 | [Website](https://github.com/notificator-project/Website)                   | The public project website, Journal, support and privacy pages, changelog, and browser-based firmware installer.                                                             |
 
 ## Physical devices
@@ -76,6 +77,7 @@ More compatible firmware targets can be added without forcing different devices 
 ## Built for choice and privacy
 
 - Use WordPress dashboard alerts or Strapi activity without creating a Notificator account.
+- Keep Astro and Node.js API keys in trusted server environments and out of browser bundles.
 - Enable remote delivery only for notifications that need it.
 - Connect compatible devices through your own HiveMQ Cloud cluster.
 - Keep MQTT credentials out of the Notificator account database.
