@@ -19,19 +19,28 @@
 
 Notificator is a free and open-source notification ecosystem for WordPress, Strapi, Astro, Node.js backends, a web dashboard, mobile apps, and compatible physical devices.
 
-Discover useful WordPress events, define Strapi content rules, or send trusted server events from Astro and Node.js, then choose where each alert belongs: in a local activity view, on your phone, by optional email, or on an MQTT-connected device.
+Discover useful WordPress events, define Strapi content rules, or send trusted server events from Astro and Node.js, then choose where each alert belongs: in a local activity view, in the web inbox, on your phone, by optional email, or on an MQTT-connected device.
+
+## Get started
+
+- **WordPress:** install [Notificator Project from WordPress.org](https://wordpress.org/plugins/notificator-project/). Local dashboard alerts work without a Notificator account.
+- **Strapi, Astro, or Node.js:** choose your integration on the [Get Started page](https://notificator-project.com/get-started/), with package links and setup instructions.
+- **Your account, in a browser:** open the [web dashboard (beta)](https://dashboard.notificator-project.com) to register, create API keys, review notifications, and manage supported devices. No mobile app installation is required.
+- **Mobile push:** get [Notificator Project for iPhone and iPad from the App Store](https://apps.apple.com/app/notificator-project/id6758410275), sign in with the same account, and allow notifications. Android is coming to Google Play; it is not publicly available yet.
+
+The [dashboard guide](https://docs.notificator-project.com/guides/web-dashboard/) explains notifications, API keys, MQTT settings, device monitoring, and supported OTA updates. In-dashboard toasts appear while the dashboard is open; they are not background browser push.
 
 ## One event, several useful destinations
 
 ```text
 WordPress · Strapi · Astro · Node.js event
       ↓
-Notificator notification rule
+Local activity or connected delivery
       ↓
 Local activity · Web inbox · Mobile push · Optional email · MQTT device
 ```
 
-WordPress dashboard alerts and the Strapi activity log work locally without an account or API key. Remote delivery is optional and can connect the mobile app, email alerts, and user-owned MQTT infrastructure.
+WordPress dashboard alerts and the Strapi activity log work locally without an account or API key. Remote delivery is optional and can connect the web inbox, mobile app, email alerts, and user-owned MQTT infrastructure.
 
 Create an account and integration API keys in the [web dashboard (beta)](https://dashboard.notificator-project.com)
 or mobile app. Use either to read connected notifications and monitor devices;
@@ -43,12 +52,12 @@ The Notificator web dashboard is separate from the local WordPress dashboard.
 | Project                                                                     | What it provides                                                                                                                                                             |
 | --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [WordPress Plugin](https://github.com/notificator-project/WordPress-Plugin) | Event discovery, ready-made templates, notification rules, dashboard alerts, mobile delivery, MQTT, activity history, and portable configuration exports.                    |
-| [Strapi Extension](https://github.com/notificator-project/Strapi-Extension) | The `0.1.1` Strapi 5 preview for content lifecycle rules, local activity, signed remote delivery, mobile alerts, email, and user-owned MQTT without repeated lifecycle code. |
+| [Strapi Extension](https://github.com/notificator-project/Strapi-Extension) | A Strapi 5 preview for content lifecycle rules, local activity, signed remote delivery, mobile alerts, email, and user-owned MQTT without repeated lifecycle code. |
 | [Astro Integration](https://github.com/notificator-project/astro)          | The `@notificator-project/astro` server integration for Actions, API routes, webhooks, server-rendered workflows, and optional successful-build alerts.                          |
 | [IoT Firmware](https://github.com/notificator-project/IoT-Firmware)         | Open-source ESP32 firmware, browser installation, signed OTA updates, and independent release channels for supported hardware.                                               |
 | [Hosted API](https://github.com/notificator-project/public-api)             | The server-side notification ingestion and delivery service operated at `api.notificator-project.com`.                                                                       |
 | [Node.js SDK](https://github.com/notificator-project/Node-SDK)              | The `@notificator-project/api` server client for sending typed alerts through the hosted API.                                                                                |
-| [Documentation](https://github.com/notificator-project/Docs)                | Setup guides for WordPress, Strapi, Astro, the Node.js SDK, app, HiveMQ, Notificator devices, firmware installation, and public APIs.                                         |
+| [Documentation](https://github.com/notificator-project/Docs)                | Setup guides for WordPress, Strapi, Astro, the Node.js SDK, web dashboard, mobile app, HiveMQ, Notificator devices, firmware installation, and public APIs.                                         |
 | [Website](https://github.com/notificator-project/Website)                   | The public project website, Journal, support and privacy pages, changelog, and browser-based firmware installer.                                                             |
 | [Web Dashboard](https://github.com/notificator-project/dashboard) | Browser-based account registration, API-key management, shared notifications, MQTT device monitoring, and signed Base/Touch OTA controls (beta). |
 
