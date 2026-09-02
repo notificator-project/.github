@@ -11,12 +11,13 @@
 <p align="center">
   <a href="https://notificator-project.com/get-started/"><strong>Get started</strong></a> ·
   <a href="https://notificator-project.com/">Website</a> ·
+  <a href="https://dashboard.notificator-project.com">Web dashboard (beta)</a> ·
   <a href="https://docs.notificator-project.com/">Documentation</a> ·
   <a href="https://notificator-project.com/changelog/">Changelog</a> ·
   <a href="https://notificator-project.com/support/">Support</a>
 </p>
 
-Notificator is a free and open-source notification ecosystem for WordPress, Strapi, Astro, Node.js backends, mobile apps, and compatible physical devices.
+Notificator is a free and open-source notification ecosystem for WordPress, Strapi, Astro, Node.js backends, a web dashboard, mobile apps, and compatible physical devices.
 
 Discover useful WordPress events, define Strapi content rules, or send trusted server events from Astro and Node.js, then choose where each alert belongs: in a local activity view, on your phone, by optional email, or on an MQTT-connected device.
 
@@ -27,10 +28,15 @@ WordPress · Strapi · Astro · Node.js event
       ↓
 Notificator notification rule
       ↓
-Local activity · Mobile push · Optional email · MQTT device
+Local activity · Web inbox · Mobile push · Optional email · MQTT device
 ```
 
 WordPress dashboard alerts and the Strapi activity log work locally without an account or API key. Remote delivery is optional and can connect the mobile app, email alerts, and user-owned MQTT infrastructure.
+
+Create an account and integration API keys in the [web dashboard (beta)](https://dashboard.notificator-project.com)
+or mobile app. Use either to read connected notifications and monitor devices;
+install the app when you want mobile push. Both clients share the same account.
+The Notificator web dashboard is separate from the local WordPress dashboard.
 
 ## Projects
 
@@ -44,6 +50,7 @@ WordPress dashboard alerts and the Strapi activity log work locally without an a
 | [Node.js SDK](https://github.com/notificator-project/Node-SDK)              | The `@notificator-project/api` server client for sending typed alerts through the hosted API.                                                                                |
 | [Documentation](https://github.com/notificator-project/Docs)                | Setup guides for WordPress, Strapi, Astro, the Node.js SDK, app, HiveMQ, Notificator devices, firmware installation, and public APIs.                                         |
 | [Website](https://github.com/notificator-project/Website)                   | The public project website, Journal, support and privacy pages, changelog, and browser-based firmware installer.                                                             |
+| [Web Dashboard](https://github.com/notificator-project/dashboard) | Browser-based account registration, API-key management, shared notifications, MQTT device monitoring, and signed Base/Touch OTA controls (beta). |
 
 ## Physical devices
 
